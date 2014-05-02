@@ -69,6 +69,6 @@ class TodosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def todo_params
-      params.require(:todo).permit(:name, :assigned_to, :due_date, :priority)
+      params.require(:todo).permit(:task, :assigned_to, :due_date, :priority)
     end
 end
