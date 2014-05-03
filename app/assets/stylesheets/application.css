@@ -59,3 +59,6 @@ footer{
   min-width:320px;
   z-index:999;
 }
+button a{
+  color:white;
+}
