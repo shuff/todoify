@@ -22,7 +22,7 @@
         <td><%= todo.due_date %></td>
         <td style="text-align:left;position:relative;left:10px;"><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
-        <td>
+        <td style="position:relative;left:-15px;color:red;">
           <%= link_to 'Delete', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
         </td>
         <td style="">
