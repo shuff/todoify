@@ -1,5 +1,7 @@
 <label style="position:absolute;top:19px;font-size:1.5em;z-index:999;color:white;left:20px;">Update Task</label>
 <%= render 'form' %>
 
-<%= link_to 'Show', @todo %> |
-<%= link_to 'Back', todos_path %>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary"><%= link_to 'View', @todo %> </button>
+    <button type="button" class="btn btn-primary"><%= link_to 'Back', todos_path %></button>
+</div>
