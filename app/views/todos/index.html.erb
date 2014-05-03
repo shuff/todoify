@@ -22,6 +22,9 @@
         <td><%= todo.due_date %></td>
         <td><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
+        <td><a href="<%= edit_todo_path(todo) %>">
+          <i class="fa fa-edit fa-2x"></i>
+         </a></td>
 
       </tr>
     <% end %>
