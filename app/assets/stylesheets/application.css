@@ -36,6 +36,8 @@ table{
   width:100%;
 }
 footer{
+  color:#595959;
+  font-size:1em;
   position:absolute;
   bottom:10px;
   width:100%;
