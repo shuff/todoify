@@ -43,3 +43,7 @@ footer{
   width:100%;
   text-align:center;
 }
+a:hover{
+  height:auto;
+  color:rgb(158,72,35,.5);
+}
