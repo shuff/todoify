@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'rails_12factor',  group: :production
-gem 'less-rails-bootstrap'
+gem 'twitter-bootstrap-rails'
 gem 'font-awesome-less'
 
 # Use ActiveModel has_secure_password
