@@ -1,4 +1,11 @@
 <%= form_for(@todo) do |f| %>
+<a class="btn btn-lg btn-success" style="width:100%;text-align:left;border-radius:10px;margin-bottom:5px;" 
+     href="<%= f.submit %>">
+	<i id="add" class="fa fa-plus fa-2x pull-right"></i>
+	<label style="position:relative;top:5px;font-size:1.2em;">Add New Task</label></a> 
+
+
+
   <% if @todo.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@todo.errors.count, "error") %> prohibited this todo from being saved:</h2>
@@ -32,7 +39,9 @@
     <%= f.radio_button(:priority, "3") %>
     <%= f.label(:priority_low, "Meah..") %>
   </div>
+<!--
   <div class="actions">
     <%= f.submit %>
   </div>
+-->
 <% end %>
