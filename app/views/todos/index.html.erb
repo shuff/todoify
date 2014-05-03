@@ -1,5 +1,6 @@
 
-  <a class="btn btn-lg btn-success" style="width:100%;text-align:center;border-radius:10px;" href="<%= new_todo_path %>">
+  <a class="btn btn-lg btn-success" style="width:100%;text-align:center;border-radius:10px;" 
+     href="<%= new_todo_path %>">
 	<i id="add" class="fa fa-plus fa-2x pull-right"></i>
 	<label style="position:relative;top:5px;font-size:1.2em;">Add Task</label></a> 
 <table>
@@ -21,8 +22,7 @@
         <td><%= todo.due_date %></td>
         <td><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
-        <td><a href="<%= edit_todo_path(todo) %>"><i class="fa fa-edit fa-2x"></i></a></td>
-        <td><a href="<%= todo, method: :delete, data: { confirm: 'Are you sure?' } %>"><i class="fa fa-delete fa-2x"></i> </a></td>
+
       </tr>
     <% end %>
   </tbody>
