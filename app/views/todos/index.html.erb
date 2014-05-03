@@ -20,14 +20,14 @@
         <td><%= todo.task %></td>
         <td><%= todo.assigned_to %></td>
         <td><%= todo.due_date %></td>
-        <td><%= todo.priority %></td>
+        <td style="text-align:center;"><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
-          <td style="padding:5px;">
+          <td style="padding:10px;">
           <a href="#">
             <i class="fa fa-trash-o fa-2x"></i> 
           </a>
         </td>
-        <td style="padding:5px;"><a href="<%= edit_todo_path(todo) %>">
+        <td style="padding:10px;"><a href="<%= edit_todo_path(todo) %>">
           <i class="fa fa-edit fa-2x"></i>
          </a>
         </td>
