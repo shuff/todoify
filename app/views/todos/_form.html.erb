@@ -1,8 +1,9 @@
 <%= form_for(@todo) do |f| %>
-<a class="btn btn-lg btn-success actions" style="width:100%;text-align:left;border-radius:10px;margin-bottom:5px;">
+<div class="btn btn-lg btn-success actions" style="width:100%;text-align:left;border-radius:10px;margin-bottom:5px;">
 	<i id="submit" class="fa fa-star fa-2x pull-right"></i>
 	<label style="position:relative;top:5px;font-size:1.2em;">Add New Task</label>
-  <%= f.submit %></a> 
+  <%= f.submit %>
+</div> 
   <% if @todo.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@todo.errors.count, "error") %> prohibited this todo from being saved:</h2>
