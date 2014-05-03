@@ -51,4 +51,6 @@ footer{
   z-index:99;
   padding:0;
   margin:0;
+  border:0;
+  color:transparent;
 }
