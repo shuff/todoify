@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 
 gem 'rails_12factor',  group: :production
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
-gem 'font-awesome-less'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
