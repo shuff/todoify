@@ -18,8 +18,8 @@
     <% @todos.each do |todo| %>
       <tr>
         <td><%= todo.task %></td>
-        <td><%= todo.assigned_to %></td>
-        <td><%= todo.due_date %></td>
+        <td style="text-align:center;"><%= todo.assigned_to %></td>
+        <td style="text-align:center;"><%= todo.due_date %></td>
         <td style="text-align:left;position:relative;left:10px;"><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
         <td style="position:relative;left:-15px;color:red;">
