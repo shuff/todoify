@@ -22,7 +22,7 @@
 	position:relative;
 }
 #content{
-	max-width:420px;
+	max-width:920px;
 	height:auto;
 	position:relative;
 	margin:0 auto;
@@ -30,6 +30,7 @@
 	border-radius:10px;
 	min-height:500px;
 	padding:3px;	
+  width:100%;
 }
 table{
   width:100%;
