@@ -46,7 +46,7 @@ footer{
 .top-action-input,.top-action-input input{
   position:relative;
   width:100%;
-  height:min-height:60px;
+  min-height:60px;
   background:transparent;
   padding:0;
   margin:0;
