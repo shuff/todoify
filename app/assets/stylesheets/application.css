@@ -56,5 +56,6 @@ footer{
 .top-action-input input{
   min-height:20px;
   width:100%;
+  min-width:320px;
   z-index:999;
 }
