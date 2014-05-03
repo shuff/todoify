@@ -23,9 +23,9 @@
         <td style="text-align:left;position:relative;left:10px;"><%= todo.priority %></td>
    <!--redundent     <td><%= link_to 'Show', todo %></td> -->
         <td>
-          <a href="#" style="position:relative;left:-15px;">
+         <%= <a href="#" style="position:relative;left:-15px;">
             <i class="fa fa-trash-o fa-3x"></i> 
-          </a>
+          </a> todo, method: :delete, data: { confirm: 'Are you sure?' } %>
         </td>
         <td style="">
           <a style="" href="<%= edit_todo_path(todo) %>">
