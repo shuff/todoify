@@ -60,5 +60,5 @@ footer{
   z-index:999;
 }
 button a{
-  color:white;
+  color:white !important;
 }
