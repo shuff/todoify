@@ -2,6 +2,8 @@
 <%= render 'form' %>
 
 <div class="container">
-  <%= link_to <button type="button" class="btn btn-primary fa fa-chevron-left fa-2x"></button> todos_path %>
+  <button type="button" class="btn btn-primary fa fa-chevron-left fa-2x">
+    <a href="<%= todos_path %>"> Back</a>
+  </button>
     <button type="button" class="btn btn-primary fa fa-check fa-2x"><%= link_to 'Show', @todo %></button>
 </div>
