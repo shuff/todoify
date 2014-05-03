@@ -44,8 +44,8 @@ footer{
   text-align:center;
 }
 a:hover{
-  color:#CCCCCC;
+  color:transparent;
 }
 a:hover i{
-  color:transparent;
+  font-size:larger;
 }
