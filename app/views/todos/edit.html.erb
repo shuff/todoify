@@ -1,5 +1,5 @@
 <label class="fa-2x" 
-       style="position:absolute;z-index:999;left:20px;top:10px;">Update Task
+       style="position:absolute;z-index:999;left:20px;top:15px;color:white;">Update Task
 </label>
 <%= render 'form' %>
 
@@ -8,7 +8,8 @@
     Back
   </button>
    </a>
-    <a href="<%= link_to 'Show', @todo %>"><%= link_to 'Show', @todo %> <button type="button" class="btn btn-primary fa fa-check fa-2x">
+    <a href="<%= @todo %>"> <button type="button" class="btn btn-primary fa fa-check fa-2x">
+      Show
    </button>
   </a>
   </div>
