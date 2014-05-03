@@ -1,7 +1,9 @@
 <%= form_for(@todo) do |f| %>
 <div class="btn btn-lg btn-success actions" style="width:100%;text-align:left;border-radius:10px;margin-bottom:5px;color:white;">
-	<i id="submit" class="fa fa-star fa-2x pull-right"></i>
-  <label style="position:relative;top:5px;font-size:1.2em;"><%= f.submit %></label>
+	<div class="top-action-input">
+  <%= f.submit %>
+  </div>
+  <i id="submit" class="fa fa-star fa-2x pull-right"></i>
 </div> 
   <% if @todo.errors.any? %>
     <div id="error_explanation">
