@@ -40,7 +40,7 @@ footer{
   color:#595959;
   font-size:.8em;
   position:absolute;
-  bottom:10px;
+  bottom:0;
   width:100%;
   text-align:center;
 }
