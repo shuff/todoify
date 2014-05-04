@@ -63,6 +63,9 @@ footer{
 button a{
   color:white !important;
 }
+button{
+  font-family: 'Ubuntu', sans-serif;
+}
 .custom_btn a{
   color:white !important;
   text-decoration:none;
