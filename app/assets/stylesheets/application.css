@@ -22,7 +22,7 @@
 	position:relative;
 }
 #content{
-	max-width:500px;
+	max-width:600px;
 	height:auto;
 	position:relative;
 	margin:0 auto;
@@ -62,10 +62,10 @@ footer{
 }
 button a{
   color:white !important;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 button{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 .custom_btn a{
   color:white !important;
