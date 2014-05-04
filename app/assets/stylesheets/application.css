@@ -67,6 +67,8 @@ button a{
 }
 .good_font{
     font-family: 'Ubuntu', sans-serif;
+  position:relative;
+  float:right;
 }
 .custom_btn a{
   color:white !important;
