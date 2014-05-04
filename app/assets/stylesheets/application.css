@@ -87,3 +87,6 @@ button a{
 .nav li a,.nav li{
   position:relative;float:left;
 }
+.nav li{
+  padding:5px;
+}
