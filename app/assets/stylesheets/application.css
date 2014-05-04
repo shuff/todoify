@@ -1,0 +1,94 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self 
+*= require font-awesome
+ */
+@import "bootstrap";
+
+#wrapper{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+#content{
+	max-width:600px;
+	height:auto;
+	position:relative;
+	margin:0 auto;
+	border:#CCCCCC 1px solid;
+	border-radius:5px;
+	padding:3px;	
+  width:100%;
+  padding-bottom:60px;
+  font-family: 'Open Sans', sans-serif;
+}
+table{
+  width:100%;
+}
+footer{
+  color:#595959;
+  font-size:.8em;
+  position:absolute;
+  bottom:-18px;
+  width:99%;
+}
+.top-action-input,.top-action-input input{
+  position:relative;
+  width:100%;
+  min-height:auto;
+  background:transparent;
+  padding:0;
+  margin:0;
+  border:0;
+  color:transparent;
+}
+.top-action-input input{
+  min-height:20px;
+  width:100%;
+  min-width:320px;
+  z-index:999;
+}
+button a{
+  color:white !important;
+}
+
+.good_font{
+  font-family: 'Open Sans', sans-serif;
+  position:relative;
+  float:right;
+  margin-left:5px;
+  top:-2px;
+}
+.custom_btn{
+  text-align:left;
+  margin-bottom:5px;
+}
+.custom_btn .good_font{
+    text-align:right;position:relative;margin-top:-1em;
+}
+.custom_btn a{
+  color:white !important;
+  text-decoration:none;
+}
+#notice{
+  color:green;
+}
+.nav li a,.nav li{
+  padding:0;
+  line-height:2em;
+}
+.nav li{
+  padding:10px;padding-bottom:5px;
+   position:relative;float:left;
+}

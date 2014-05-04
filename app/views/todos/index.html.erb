@@ -1,0 +1,37 @@
+
+<a class="btn btn-lg btn-primary" style="color:white;width:100%;text-align:left;margin-bottom:20px;padding-bottom:7px;" 
+     href="<%= new_todo_path %>">
+  <i id="add" class="fa fa-plus fa-2x pull-right" style="position:relative;top:3px;"></i>
+	<label style="position:relative;font-size:1.6em;">Add Task</label></a> 
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th style="text-align:center;">Assigned</th>
+      <th style="text-align:center;">Due</th>
+      <th>Priority</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @todos.each do |todo| %>
+      <tr>
+        <td><%= todo.task %></td>
+        <td style="text-align:center;"><%= todo.assigned_to %></td>
+        <td style="text-align:center;"><%= todo.due_date %></td>
+        <td><div style="width:50%;text-align:right;"><%= todo.priority %></div></td>
+   <!--redundent     <td><%= link_to 'Show', todo %></td> -->
+        <td style="position:relative;text-align:left;padding-right:15px;">
+          <%= link_to 'Delete', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+        <td style="">
+          <a style="postion:relative;top:2px;" href="<%= edit_todo_path(todo) %>">
+          <i class="fa fa-edit fa-3x" style="postion:relative;right:10px;" ></i>
+         </a>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+

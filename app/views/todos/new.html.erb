@@ -1,0 +1,22 @@
+<label class="fa-2x"  style="position:absolute;z-index:999;left:20px;top:13px;color:white;">
+  Submit Task
+</label>
+<%= render 'form' %>
+
+<div class="container">
+  <a href="<%= todos_path %>"> 
+    <div class="btn btn-primary fa fa-chevron-left fa-2x custom_btn">
+      <div class="good_font">Back</div>
+  </div>
+   </a>
+    <div class="btn btn-primary fa fa-plus fa-2x custom_btn">
+      <div id="bottom_submit" class="good_font">Submit</div>
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+    $('body').on('click','#bottom_submit', function(){
+      $('.top-action-input input').click()
+    })
+  });
+</script>

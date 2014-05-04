@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TODOify</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta charset="utf-8" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta name="viewport" content="width=device-width" />
+<link rel="apple-touch-icon" href="/assets/images/star.jpg"/>
+<link rel="apple-touch-startup-image" href="/assets/images/startup.png">
+<link rel="icon" type="image/png" href="/assets/images/fav.png">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="wrapper">
+	<div id="content" class="container">	
+<%= yield %>
+     <footer>
+<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+            <ul class="nav" >
+              <li class="brand"><a href="<%= todos_path %>">TODOify.com</a></li>
+              <li><a href="#"><i class="fa fa-cog fa-1x"></i> Login</a></li>
+              <li style="right:0;position:absolute;"><i id="whoami" class="fa fa-user fa-1x"></i> Hello User</li>
+            </ul>
+					</div>
+  </div>
+       </nav>
+    </footer>
+	</div>
+</div>
+</body>
+  <script>
+  $(document).ready(function(){
+    $('.field input').first().focus()
+  });
+</script>
+</html>
