@@ -64,11 +64,12 @@ button a{
   color:white !important;
 }
 .btn-primary{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 .custom_btn a{
   color:white !important;
   text-decoration:none;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 #notice{
   color:green;
