@@ -68,13 +68,11 @@ button a{
 .good_font{
     font-family: 'Ubuntu', sans-serif;
   position:relative;
-  float:right;
+  float:right !important;
 }
 .custom_btn a{
   color:white !important;
   text-decoration:none;
-  position:relative;
-  float:left;
 }
 #notice{
   color:green;
