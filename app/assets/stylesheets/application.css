@@ -65,10 +65,10 @@ button a{
 }
 .btn-primary{
 }
-.good_font{
+.good_font,.good_font a{
     font-family: 'Ubuntu', sans-serif;
   position:relative;
-  float:right !important;
+  float:right;
 }
 .custom_btn a{
   color:white !important;
