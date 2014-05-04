@@ -70,8 +70,11 @@ button a{
   position:relative;
   float:right;
 }
+.custom_btn{
+  text-align:left;
+}
 .custom_btn .good_font{
-    text-align:right;position:relative;margin-top:-1em;"
+    text-align:right;position:relative;margin-top:-1em;
 }
 .custom_btn a{
   color:white !important;
