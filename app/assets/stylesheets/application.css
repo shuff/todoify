@@ -62,6 +62,7 @@ footer{
 }
 button a{
   color:white !important;
+  font-family: 'Ubuntu', sans-serif;
 }
 button{
   font-family: 'Ubuntu', sans-serif;
