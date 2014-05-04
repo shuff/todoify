@@ -64,7 +64,9 @@ button a{
   color:white !important;
 }
 .btn-primary{
-  font-family: 'Ubuntu', sans-serif !important;
+}
+.good_font{
+    font-family: 'Ubuntu', sans-serif;
 }
 .custom_btn a{
   color:white !important;
