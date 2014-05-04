@@ -62,4 +62,8 @@ footer{
 button a{
   color:white !important;
 }
+div a{
+  color:white !important;
+  text-decoration:none;
+}
 
