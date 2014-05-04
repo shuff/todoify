@@ -73,6 +73,8 @@ button a{
 .custom_btn a{
   color:white !important;
   text-decoration:none;
+  position:relative;
+  float:left;
 }
 #notice{
   color:green;
