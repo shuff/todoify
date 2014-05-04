@@ -8,7 +8,8 @@
     Back
   </button>
    </a>
-  <a href=" <%= @todo %> ">
-    <button type="button" class="btn btn-primary fa fa-check fa-2x"> View</button>
-  </a>
+    <div>
+    <button type="button" class="btn btn-primary fa fa-check fa-2x"></button>
+     <%= link_to, 'View', @todo %>
+  </div>
   </div>
