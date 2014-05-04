@@ -5,11 +5,13 @@
 
 <div class="container">
   <a href="<%= todos_path %>"> 
-    <div class="btn btn-primary fa fa-chevron-left fa-2x">
+    <div class="btn btn-primary fa fa-chevron-left fa-2x good_font">
     Back
   </div>
    </a>
 </div>
 <script>
-  $('input').first().focus()
+  $(document).ready(function(){
+    $('input').first().focus()
+  });
 </script>
