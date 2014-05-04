@@ -62,10 +62,9 @@ footer{
 }
 button a{
   color:white !important;
-  font-family: 'Ubuntu', sans-serif !important;
 }
-button{
-  font-family: 'Ubuntu', sans-serif !important;
+.btn-primary{
+  font-family: 'Ubuntu', sans-serif;
 }
 .custom_btn a{
   color:white !important;
