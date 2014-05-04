@@ -86,8 +86,9 @@ button a{
 }
 .nav li a,.nav li{
   padding:0;
+  line-height:2em;
 }
 .nav li{
-  padding:10px;padding-bottom:5;
+  padding:10px;padding-bottom:5px;
    position:relative;float:left;
 }
