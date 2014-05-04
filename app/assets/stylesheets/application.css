@@ -40,9 +40,8 @@ footer{
   color:#595959;
   font-size:.8em;
   position:absolute;
-  bottom:-10px;
+  bottom:10px;
   width:100%;
-  text-align:center;
 }
 .top-action-input,.top-action-input input{
   position:relative;
