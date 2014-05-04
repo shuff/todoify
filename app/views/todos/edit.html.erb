@@ -4,9 +4,10 @@
 <%= render 'form' %>
 
 <div class="container">
-  <a href="<%= todos_path %>"> <button type="button" class="btn btn-primary fa fa-chevron-left fa-2x">
+  <a href="<%= todos_path %>"> 
+    <div class="btn btn-primary fa fa-chevron-left fa-2x">
     Back
-  </button>
+  </div>
    </a>
     <div class="btn btn-primary fa fa-check fa-2x">
      <%= link_to 'View', @todo %>
