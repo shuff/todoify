@@ -40,7 +40,7 @@ footer{
   color:#595959;
   font-size:.8em;
   position:absolute;
-  bottom:-20px;
+  bottom:-30px;
   width:100%;
 }
 .top-action-input,.top-action-input input{
@@ -62,8 +62,7 @@ footer{
 button a{
   color:white !important;
 }
-.btn-primary{
-}
+
 .good_font{
   font-family: 'Open Sans', sans-serif;
   position:relative;
@@ -84,4 +83,7 @@ button a{
 }
 #notice{
   color:green;
+}
+.navbar-inner td{
+  width:auto;
 }
