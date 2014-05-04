@@ -84,6 +84,6 @@ button a{
 #notice{
   color:green;
 }
-.navbar-inner td{
+.navbar-inner td,.navbar-inner a{
   width:auto;
 }
