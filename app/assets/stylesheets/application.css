@@ -84,6 +84,6 @@ button a{
 #notice{
   color:green;
 }
-.nav li a{
+.nav li a,.nav li{
   position:relative;float:left;
 }
