@@ -29,7 +29,8 @@ gem 'spring',        group: :development
 gem 'rails_12factor',  group: :production
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'font-awesome-sass'
-
+gem 'devise'
+gem 'doorkeeper'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
